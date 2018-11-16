@@ -1,0 +1,14 @@
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.API.deps.json
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.API.dll
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.API.pdb
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.Core.dll
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.Infrastructure.dll
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.Infrastructure.pdb
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\bin\Debug\netstandard2.0\GraphQL.Core.pdb
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.csprojAssemblyReference.cache
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.csproj.CoreCompileInputs.cache
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.AssemblyInfoInputs.cache
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.AssemblyInfo.cs
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.csproj.CopyComplete
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.dll
+C:\Users\Nilan\source\repos\GraphQLAPI\GraphQL.API\obj\Debug\netstandard2.0\GraphQL.API.pdb
