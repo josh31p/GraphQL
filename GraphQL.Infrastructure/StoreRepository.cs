@@ -9,6 +9,11 @@ namespace GraphQL.Infrastructure
     public class StoreRepository : IStoreRepository
     {
         private readonly List<Store> _stores = new List<Store>();
+
+        public StoreRepository()
+        {
+            PopulateStores();
+        }
         
         public List<Store> GetAllStores()
         {

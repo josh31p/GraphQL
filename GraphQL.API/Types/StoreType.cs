@@ -1,5 +1,6 @@
 ﻿
-using GraphQL.Core.Models;
+
+using GraphQL.API.Models;
 using GraphQL.Types;
 
 namespace GraphQL.API.Types

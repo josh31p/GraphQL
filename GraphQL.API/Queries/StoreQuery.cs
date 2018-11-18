@@ -7,15 +7,17 @@ using GraphQL.Types;
 
 namespace GraphQL.API.Queries
 {
-   public class StoreQuery : ObjectGraphType
+
+    public class StoreQuery : ObjectGraphType
     {
-        public StoreQuery() { }
+
         public StoreQuery(IStoreRepository storeRepository, IMapper mapper)
         {
+            Name = "Query";
             Field<StoreType>(
                 "store",
                 arguments: new QueryArguments(
-                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "id", Description = "id of the store" }
+                    new QueryArgument<NonNullGraphType<IdGraphType>> { Name = "id"}
                 ),
                 resolve: context =>
                 {

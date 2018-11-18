@@ -9,23 +9,22 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GraphQL.API.Controllers
 {
-    [Route("api/Store")]
-    public class StoreController
+   [Route("api/GraphQL")]
+    public class GraphqlController:Controller
     {
+        private readonly StoreQuery _graphQlQuery;
         private IDocumentExecuter _documentExecuter { get; set; }
         private ISchema _schema { get; }
 
-        public StoreController(IDocumentExecuter documentExecuter, ISchema schema)
+        public GraphqlController(StoreQuery graphQLQuery,IDocumentExecuter documentExecuter, ISchema schema)
         {
+            _graphQlQuery = graphQLQuery;
             _documentExecuter = documentExecuter;
             _schema = schema;
         }
 
-        [HttpGet]
-        public IActionResult Index()
-        {
-            return new OkResult();
-        }
+
+ 
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GraphQlParameter query)
@@ -40,14 +39,14 @@ namespace GraphQL.API.Controllers
 
                 if (result.Errors?.Count > 0)
                 {
-                    return new BadRequestResult();
+                    return BadRequest(result);
                 }
 
-                return new OkResult();
+                return Ok(result);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return new BadRequestResult();
+                return Ok(ex);
             }
         }
     }

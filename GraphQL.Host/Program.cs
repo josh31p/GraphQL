@@ -18,10 +18,10 @@ namespace GraphQL.Host
         public static IWebHost CreateWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseKestrel(options =>
-                {
-                    options.Listen(IPAddress.Any, 6199);
-                })
+                //.UseKestrel(options =>
+                //{
+                //    options.Listen(IPAddress.Any, 6199);
+                //})
                 .ConfigureServices(services => services.RegisterApiDependencies())
                 .Build();
     }
