@@ -54,6 +54,8 @@ Ankh.NoLoad
 /.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide
 /.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide-shm
 /.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide-wal
+<<<<<<< HEAD
+=======
 /GraphQL.API/obj/Debug/netstandard2.0/GraphQL.API.assets.cache
 /GraphQL.API/obj/Debug/netstandard2.0/GraphQL.API.csproj.CoreCompileInputs.cache
 /GraphQL.API/obj/Debug/netstandard2.0/GraphQL.API.csprojAssemblyReference.cache
@@ -91,3 +93,4 @@ Ankh.NoLoad
 /GraphQL.Infrastructure/obj/Debug/netstandard2.0/GraphQL.Infrastructure.assets.cache
 /GraphQL.Infrastructure/obj/Debug/netstandard2.0/GraphQL.Infrastructure.csproj.CoreCompileInputs.cache
 /GraphQL/obj/Debug/netstandard2.0/GraphQL.Core.assets.cache
+>>>>>>> more gitignore
