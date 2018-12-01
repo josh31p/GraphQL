@@ -49,3 +49,8 @@ Ankh.NoLoad
 # Include DLLs if they're in the NuGet packages directory
 !/packages/*/lib/*.dll
 !/packages/*/lib/*/*.dll
+/.vs/GraphQLAPI/DesignTimeBuild/.dtbcache
+/.vs/GraphQLAPI/v15/Server/sqlite3/db.lock
+/.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide
+/.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide-shm
+/.vs/GraphQLAPI/v15/Server/sqlite3/storage.ide-wal
