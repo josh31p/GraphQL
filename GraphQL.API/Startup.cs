@@ -16,7 +16,7 @@ namespace GraphQL.API
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            //services.AddMvc();
             //services.AddAutoMapper(typeof(Startup));
 
             services.AddSwaggerGen(c =>
